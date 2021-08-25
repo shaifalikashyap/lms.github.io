@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Student Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+</head>
+<body>
+<header style="height: 90px;">
+  
+<div class="logo">
+      <h1 style="color: white; font-size: 25px;word-spacing: 10px; line-height: 80px;margin-top: 20px;">ONLINE LIBRARY MANAGEMENT SYSTEM</h1>
+    </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="">BOOKS</a></li>
+          <li><a href="student_login.html">STUDENT-LOGIN</a></li>
+          <li><a href="admin_login.html">ADMIN_LOGIN</a></li>
+          <li><a href="">FEEDBACK</a></li>
+        </ul>
+      </nav>
+</header>
+<section>
+  <div class="log_img">
+    <br> <br><br>
+    <div class="box1">
+        <h1 style="text-align: center; font-size: 35px;font-family: Lucida Console;">Quantum Library Management System</h1><br>
+        <h1 style="text-align: center; font-size: 25px;">YOU WANT TO CHECK THE BOOK LIST OF ANY DEPARTMENT WHICH IS AVAILABLE ON LIBRARY
+        THEN SELECT YOUR DEPARTMENT AND CLICK ON SHOW THE BOOK LISTS</h1><br>
+      <form name="login" action="offline_books" method="get">
+        <br>
+        <input list="browsers" name="t1" placeholder="SELECT YOUR DEPARTMENT"/><br>
+    <datalist id="browsers">
+      <option value="COMPUTER SCIENCE & ENGINEERING">
+      <option value="CIVIL ENGINEERING">
+      <option value="ELECTRICAL ENGINEERING">
+      <option value="MECHANICAL ENGINEERING">
+      <option value="ELECTRICAL ENGINEERING">
+          <option value="CHEMICAL ENGINEERING">
+          
+    </datalist><br>
+            <input type="submit" value="SHOW THE BOOK LISTS"/><br><br>
+            <a href="issue_books.html"><div class="text-center" style="font-size: 30px;color: #ffffff">
+        <strong> ISSUE ANY BOOK </strong></div>
+        </a>
+ 
+      </form>
+ 
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
